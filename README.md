@@ -118,7 +118,7 @@ The tool provides clear error messages for:
 ## Example Output
 
 ```bash
-$ node reconstruct.js testcase.json
+$ node reconstruct.js testcase.json or testcase1.json
 12345678901234567890
 ```
 
@@ -139,4 +139,3 @@ $ node reconstruct.js testcase.json
 
 - Requires exactly k shares for reconstruction (no error correction)
 - Input values must be integers
-- Base parsing supports up to base 36 (0-9, a-z)
